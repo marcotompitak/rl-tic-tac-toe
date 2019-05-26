@@ -1,0 +1,41 @@
+body {
+	background: #39424E;
+}
+
+.tictactoe_container {
+    box-sizing: border-box;
+    display: flex;
+    background: #39424E;
+    color: #fff;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    min-width: 700px;
+    min-height: 500px;
+    border-radius: 5%;
+    margin: auto;
+}
+
+.tictactoe_container table {
+    border-collapse: collapse;
+    margin: auto;
+}
+
+.tictactoe_container td {
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 5px solid #39424E;
+    font-size: 80px;
+    color: #fff;
+    border-radius: 10%;
+}
+
+.tictactoe_container #restart {
+    border: 0;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: #fff;
+    box-shadow: none;
+    border-radius: 0px;
+    padding: 0.5em;
+    font-weight: bold;
+    font-size: large;
+}
